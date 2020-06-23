@@ -1,7 +1,30 @@
-#demo {
-  text-align: center;
-  margin-top: 250px;
-  font-size: 100px;
+body {
+  padding: 0;
+  margin: 0;
+  max-height: 100vh;
+}
+
+#particles-js {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #121212;
+}
+
+.main p {
+  color: #fff;
+  z-index: 1;
+  font-size: 2rem;
 }
 
 .ids {
@@ -17,12 +40,5 @@
   cursor: pointer;
   top: 50%;
   position: absolute;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-left: 600px;
   margin-top: 60px;
-}
-
-body {
-  background-color: yellow;
 }
