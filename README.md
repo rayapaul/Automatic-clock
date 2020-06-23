@@ -1,5 +1,7 @@
 # **Topic - Automatic Clock**
 
+### [Click Here to View](https://rayapaul-clock.netlify.app/)
+
 ## Description-
 
 This site is made using simple JavaScript. Particle.js is also applied on this. It will show an Automatic Clock once we click on the 'Click' button.
